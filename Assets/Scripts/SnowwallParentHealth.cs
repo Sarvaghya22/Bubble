@@ -40,7 +40,7 @@ public class SnowwallParentHealth : MonoBehaviour
                 outline = gameObject.AddComponent<Outline>();
             }
             outline.enabled = true;
-            outline.OutlineColor = Color.white; // Adjust outline color if needed
+            outline.OutlineColor = Color.red; // Adjust outline color if needed
             outline.OutlineWidth = 2.5f;       // Adjust outline width if needed
         }
 
